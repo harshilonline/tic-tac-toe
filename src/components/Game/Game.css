@@ -1,0 +1,59 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2em;
+  }
+  
+  .logo {
+    width: auto;
+  }
+  
+  .turn-display-container {
+    display: flex;
+    background: #1f3641;
+    box-shadow: inset 0px -4px 0px #10212a;
+    border-radius: 10px;
+    height: 3.5em;
+    width: 9em;
+  }
+  
+  .turn-display {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: #a8bfc9;
+    padding: 1em;
+  }
+  
+  .reset-button {
+    padding: 1em;
+    background: #a8bfc9;
+    box-shadow: inset 0px -4px 0px #6b8997;
+    border-radius: 10px;
+  }
+  
+  .reset-button:hover {
+    background: #dbe8ed;
+    box-shadow: inset 0px -4px 0px #6b8997;
+  }
+  
+  .xo-icons {
+    width: auto;
+  }
+  
+  @media (max-width: 420px) {
+    header {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .score-display {
+      width: 80%;
+      margin: auto;
+      gap: 1em;
+    }
+  }
+  

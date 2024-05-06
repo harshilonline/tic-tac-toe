@@ -1,0 +1,34 @@
+.score-display {
+    display: flex;
+    padding-top: 2.5em;
+  }
+  
+  .score {
+    border-radius: 15px;
+    width: 5em;
+    height: 3.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 50px;
+  }
+  
+  .score-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2.5em;
+  }
+  
+  .x-score {
+    background: #31c3bd;
+  }
+  
+  .tie-score {
+    background: #a8bfc9;
+  }
+  
+  .o-score {
+    background: #f2b137;
+  }
